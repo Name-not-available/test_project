@@ -12,12 +12,4 @@ public class TestProjectApplication {
     SpringApplication.run(TestProjectApplication.class, args);
   }
 
-  // Add the controller
-  @RestController
-  class Helloworld {
-    @GetMapping("/")
-    public String greet() {
-      return "Hello!";
-    }
-  }
 }
